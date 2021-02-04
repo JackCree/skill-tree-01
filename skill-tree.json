@@ -1,16 +1,16 @@
 [{
-    "name": "BASICS",
+    "name": "BASES",
     "branch": [{
-      "name": "BASIC SKILLS",
+      "name": "COMPETENCES DE BASES",
       "iconName": "category",
       "recommend": [{
-        "name": "Learn HTML",
+        "name": "HTML ET HTML(",
         "complete": true
       }, {
-        "name": "Basics of CSS",
+        "name": "Bases du CSS",
         "complete": true
       }, {
-        "name": "Basics of JavaScript",
+        "name": "Bases de JavaScript et script",
         "complete": true
       }],
       "optional": [
