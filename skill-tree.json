@@ -41,10 +41,7 @@
         "name": "Explorer et identifier ",
         "complete": false
       }],
-      "optional": [{
-        "name": "Atom",
-        "complete": false
-      }],
+      "optional": null,
       "active": false,
       "recommendComplete": false
     }],
