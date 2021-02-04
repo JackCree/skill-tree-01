@@ -1,134 +1,134 @@
 [{
-    "name": "BASES DU CODE",
+    "name": "BASICS",
     "branch": [{
-      "name": "COMPETENCES DE BASE",
+      "name": "BASIC SKILLS",
       "iconName": "category",
       "recommend": [{
-        "name": "Appprentissage du HTML",
-        "complete": true
+        "name": "Learn HTML",
+        "complete": false
       }, {
-        "name": "Bases du CSS",
-        "complete": true
+        "name": "Basics of CSS",
+        "complete": false
       }, {
         "name": "Basics of JavaScript",
-        "complete": true
+        "complete": false
       }],
       "optional": null,
       "active": true,
-      "recommendComplete": true
+      "recommendComplete": false
     }, {
-      "name": "OUTILS DE BASE",
+      "name": "BASIC TOOLS",
       "iconName": "build",
       "recommend": [{
         "name": "Git - Version Control",
-        "complete": true
+        "complete": false
       }, {
-        "name": "Bases d'un Terminal",
-        "complete": true
+        "name": "Basic Terminal Usage",
+        "complete": false
       }, {
-        "name": "Editeur de Texte",
-        "complete": true
+        "name": "Text Editor",
+        "complete": false
       }, {
-        "name": "Un coeur dans la recherche",
-        "complete": true
+        "name": "A Heart of Reserching",
+        "complete": false
       }],
       "optional": null,
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }],
-    "levelComplete": true
+    "levelComplete": false
   },
   {
     "name": "CSS",
     "branch": [{
-      "name": "FRAMEWORK CSS",
+      "name": "CSS FRAMEWORK",
       "iconName": "flip_to_front",
       "recommend": [{
         "name": "Bootstrap",
-        "complete": true
+        "complete": false
       }],
       "optional": [{
-        "name": "Kit UI",
-        "complete": true
+        "name": "UIKit",
+        "complete": false
       }, {
-        "name": "Fondations",
-        "complete": true
+        "name": "Foundation",
+        "complete": false
       }, {
-        "name": "Semantique UI",
-        "complete": true
+        "name": "Semantic UI",
+        "complete": false
       }],
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
-      "name": "PREPROCESSEUR CSS ",
+      "name": "CSS PREPROCESSORS",
       "iconName": "view_quilt",
       "recommend": [{
         "name": "Sass",
-        "complete": true
+        "complete": false
       }, {
         "name": "PostCSS",
-        "complete": true
+        "complete": false
       }],
       "optional": [{
         "name": "Less",
-        "complete": true
+        "complete": false
       }, {
         "name": "Stylus",
-        "complete": true
+        "complete": false
       }],
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
-      "name": "ARCHITECHTURE CSS ",
+      "name": "CSS ARCHITECHTURE",
       "iconName": "developer_board",
       "recommend": [{
         "name": "OOCSS",
-        "complete": true
+        "complete": false
       }],
       "optional": [{
         "name": "SMACSS",
-        "complete": true
+        "complete": false
       }, {
         "name": "BEM",
-        "complete": true
+        "complete": false
       }],
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
-      "name": "COMPETENCES CSS",
+      "name": "CSS SKILLS",
       "iconName": "devices",
       "recommend": [{
         "name": "Responsive Web",
-        "complete": true
+        "complete": false
       }, {
         "name": "Flexbox",
-        "complete": true
+        "complete": false
       }],
       "optional": null,
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
-      "name": "MAÎTRISE DU CSS",
+      "name": "CSS MASTERY",
       "iconName": "widgets",
       "recommend": null,
       "optional": [{
         "name": "Grid Layout",
-        "complete": true
+        "complete": false
       }, {
-        "name": "Animations",
-        "complete": true
+        "name": "Animation",
+        "complete": false
       }, {
-        "name": "Transformation 2D, 3D",
-        "complete": true
+        "name": "Transform 2D, 3D",
+        "complete": false
       }],
       "recommendComplete": true
     }],
-    "levelComplete": true
+    "levelComplete": false
   },
   {
     "name": "JAVASCRIPT",
     "branch": [{
-      "name": "BASES DU DOM",
+      "name": "BASIC DOM",
       "iconName": "hdr_strong",
       "recommend": null,
       "optional": [{
@@ -137,7 +137,7 @@
       }],
       "recommendComplete": true
     }, {
-      "name": "GRAPHISME NUMERIQUE",
+      "name": "WEB DRAWING",
       "iconName": "gradient",
       "recommend": null,
       "optional": [{
@@ -152,7 +152,7 @@
       }],
       "recommendComplete": true
     }, {
-      "name": "COMPETENCES JAVASCRIPT",
+      "name": "JAVASCRIPT SKILLS",
       "iconName": "format_quote",
       "recommend": [{
         "name": "ES6",
@@ -162,7 +162,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": " FRAMEWORK JAVASCRIPT",
+      "name": "JAVASCRIPT FRAMEWORK",
       "iconName": "developer_mode",
       "recommend": [{
         "name": "Vue.js",
@@ -178,7 +178,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "PREPROCESSEURS JAVASCRIPT",
+      "name": "JAVASCRIPT PREPROCESSORS",
       "iconName": "nfc",
       "recommend": null,
       "optional": [{
@@ -196,7 +196,7 @@
     "levelComplete": false
   },
   {
-    "name": "MANAGEMENT",
+    "name": "MANAGERS",
     "branch": [{
       "name": "PACKAGE MANAGERS",
       "iconName": "device_hub",
