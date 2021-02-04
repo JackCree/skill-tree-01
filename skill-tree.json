@@ -43,7 +43,7 @@
       }],
       "optional": {
         "name": "Atom",
-        "complete: true
+        "complete": true
       },
       "active": false,
       "recommendComplete": false
