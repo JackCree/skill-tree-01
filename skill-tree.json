@@ -5,17 +5,26 @@
       "iconName": "category",
       "recommend": [{
         "name": "Learn HTML",
-        "complete": false
+        "complete": true
       }, {
         "name": "Basics of CSS",
-        "complete": false
+        "complete": true
       }, {
         "name": "Basics of JavaScript",
-        "complete": false
+        "complete": true
       }],
-      "optional": null,
+      "optional": [
+          {
+              "name": "web design",
+              "complete": true
+          },
+          {
+              "name": "prototypage",
+              "complete": true
+          }
+      ],
       "active": true,
-      "recommendComplete": false
+      "recommendComplete": true
     }, {
       "name": "BASIC TOOLS",
       "iconName": "build",
