@@ -1,0 +1,331 @@
+[
+  {
+  //Level 01 : Bases du code
+    "name": "Bases du code",
+    "branch": [
+      //branche 01 : Bases
+      {
+        "name": "Basics HTML and HTML5",
+        "iconName": "category",
+        "recommend": [
+          {
+            "name": "Editeur de texte Sublime Text 3",
+            "complete": true
+          }
+        ],
+      "optional": [ {
+        "name": "Editeur de texte Atom",
+        "complete": false
+        }
+      ],
+      "active": true,
+      "recommendComplete": true
+      }, 
+      //branche 02 : Outils
+      {
+        "name": "OUTILS DE BASE",
+        "iconName": "build",
+        "recommend": [
+          {
+            "name": "Git - Versioning",
+            "complete": true
+          },
+          {
+            "name": "GitHub - Dépot",
+            "complete": true
+          },
+          {
+            "name": "Bases du Terminal",
+            "complete": true
+          }, 
+          {
+            "name": "Editeur de Texte",
+            "complete": true
+          }          
+        ],
+      "optional": null,
+      "active": true,
+      "recommendComplete": true
+    }
+  ],
+    "levelComplete": true
+  },
+  {
+  //Level 02 : CSS
+    "name": "Responsive Web Design",
+    "branch": [
+      //branche 01 : Notions CSS
+      {
+        "name": "COMPETENCES CSS",
+        "iconName": "devices",
+        "recommend": [
+          {
+            "name": "Responisve Web",
+            "complete": true
+          },
+          {
+            "name": "FlexBox",
+            "complete": true
+          },
+          {
+            "name": "Grid Layout",
+            "complete": true
+          }
+        ],
+      "optional": [ 
+        {
+          "name": "Animations",
+          "complete": false
+        }, 
+        {
+          "name": "Transformation 2D, 3D",
+          "complete": true
+        }
+      ],
+      "active": true,
+      "recommendComplete": true
+      }, 
+      //branche 02 : Frameswork
+      {
+        "name": "FRAMEWORKS CSS",
+        "iconName": "build",
+        "recommend": [
+          {
+            "name": "Bootstrap",
+            "complete": true
+          },
+          {
+            "name": "Fondations",
+            "complete": true
+          }, 
+          {
+            "name": "Semantique UI",
+            "complete": true
+          } 
+        ],
+      "optional": [
+        {
+          "name": "Kit UI",
+          "complete": true
+        },
+      ],
+      "active": true,
+      "recommendComplete": true
+    },
+    //branche 03 : Preprocesseurs
+      {
+        "name": "Preprocessing",
+        "iconName": "view_quilt",
+        "recommend": [
+          {
+            "name": "Sass",
+            "complete": true
+          },
+          {
+            "name": "PostCSS",
+            "complete": true
+          }         
+        ],
+      "optional": [
+        {
+          "name": "Less",
+            "complete": true
+          }, 
+          {
+            "name": "Stylus",
+            "complete": true
+          } 
+      ],
+      "active": true,
+      "recommendComplete": true
+    },
+    //branche 04: Architecture CSS
+      {
+        "name": "ArCHITECTURE CSS",
+        "iconName": "developer_board",
+        "recommend": [
+          {
+            "name": "OOCSS",
+            "complete": true
+          }      
+        ],
+      "optional": [
+        {
+          "name": "BEM",
+        "complete": true
+        }
+      ],
+      "active": true,
+      "recommendComplete": true
+    }
+  ],
+    "levelComplete": true
+  },
+  {
+  //Level 04 : Javascript
+    "name": "Javascript",
+    "branch": [
+      //branche 01 : DOM
+      {
+        "name": "Bases du DOM",
+        "iconName": "hdr_strong",
+        "recommend": [
+          {
+            "name": "JQuery",
+            "complete": true
+          }          
+        ],
+      "optional": null,
+      "active": true,
+      "recommendComplete": true
+      }, 
+      //branche 02 : DESSIN
+      {
+        "name": "DESSIN",
+        "iconName": "gradient",
+        "recommend": [
+          {
+            "name": "SVG",
+            "complete": true
+          },
+          {
+            "name": "Canvas",
+            "complete": true
+          }      
+        ],
+      "optional": [
+        {
+          "name": "D3.js",
+          "complete" : true 
+        }
+      ],
+      "active": true,
+      "recommendComplete": true
+    },
+    //branche 03 : Frameworks
+      {
+        "name": "Frameworks",
+        "iconName": "developer_mode",
+        "recommend": [
+          {
+            "name": "Vue.js",
+            "complete": true
+          },
+          {
+            "name": "Angular",
+            "complete": true
+          },
+          {
+            "name": "React.js",
+            "complete": true
+          },
+          {
+            "name": "Node.js",
+            "complete": true
+          }  
+
+        ],
+      "optional": [
+        {
+          "name": "GSAP",
+            "complete": true
+          }
+      ],
+      "active": true,
+      "recommendComplete": true
+    },
+    //branche 04: Preprocessing
+      {
+        "name": "Preprocessing",
+        "iconName": "nfc",
+        "recommend": [
+          {
+            "name": "TypeSccript",
+            "complete": true
+          }
+        ],
+        "optional": [
+          {
+            "name": "Babel",
+            "complete": false
+          }, 
+          {
+            "name": "CoffeeScript",
+            "complete": false
+          }
+      ],
+      "active": true,
+      "recommendComplete": true
+    }
+  ],
+    "levelComplete": true
+  },
+  //Level 5 management  
+  {
+    "name": "MANAGEMENT",
+    "branch": [
+      {
+        "name": "PACKAGE MANAGERS",
+        "iconName": "device_hub",
+        "recommend": [
+          {
+            "name": "NPM",
+            "complete": false
+          }, 
+          {
+            "name": "YARN",
+            "complete": false
+          }
+        ],
+        "optional": [
+          {
+            "name": "Bower",
+            "complete": false
+          }
+        ],
+        "active": false,
+        "recommendComplete": false
+      }, 
+      {
+        "name": "TASK RUNNERS",
+        "iconName": "import_contacts",
+        "recommend": [
+          {
+            "name": "npm scripts",
+            "complete": false
+          }, 
+          {
+            "name": "gulp",
+            "complete": false
+          }
+        ],
+        "optional": [
+          {
+            "name": "grunt",
+            "complete": false
+          }
+        ],
+        "active": false,
+        "recommendComplete": false
+      }, 
+      {
+        "name": "BUILD TOOLS",
+        "iconName": "table_chart",
+        "recommend": [
+          {
+            "name": "Webpack",
+            "complete": false
+          }
+        ],
+        "optional": [{
+        "name": "Parcel",
+        "complete": false
+        }
+      ],
+      "active": false,
+      "recommendComplete": false
+      }
+    ],
+    "levelComplete": false
+  }
+]
