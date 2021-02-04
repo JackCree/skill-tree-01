@@ -1,6 +1,6 @@
 [{
     "name": "BASES",
-    "branch": [{
+    "branch": {
       "name": "COMPETENCES DE BASE",
       "iconName": "category",
       "recommend": [{
@@ -16,26 +16,7 @@
       "optional": null,
       "active": true,
       "recommendComplete": true
-    }, {
-      "name": "OUTILS DE BASE",
-      "iconName": "build",
-      "recommend": [{
-        "name": "Git - Version Control",
-        "complete": true
-      }, {
-        "name": "Bases d'un Terminal",
-        "complete": true
-      }, {
-        "name": "Editeur de Texte",
-        "complete": true
-      }, {
-        "name": "Un coeur dans la recherche",
-        "complete": true
-      }],
-      "optional": null,
-      "active": true,
-      "recommendComplete": true
-    }],
+    },
     "levelComplete": true
   },
   {
