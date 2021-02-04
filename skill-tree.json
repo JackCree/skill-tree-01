@@ -41,10 +41,16 @@
         "name": "Explorer et identifier ",
         "complete": false
       }],
-      "optional": [{
-          "name": "Atom",
-          "complete": false
-      }],
+      "optional": [
+          {
+              "name": "Web design",
+              "complete": false
+          },
+          {
+              "name": "prototypage",
+              "complete": false
+          }
+      ],
       "active": false,
       "recommendComplete": false
     }],
