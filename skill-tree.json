@@ -5,17 +5,17 @@
       "iconName": "category",
       "recommend": [{
         "name": "Appprentissage du HTML",
-        "complete": false
+        "complete": true
       }, {
         "name": "Bases du CSS",
-        "complete": false
+        "complete": true
       }, {
         "name": "Basics of JavaScript",
-        "complete": false
+        "complete": true
       }],
       "optional": null,
       "active": true,
-      "recommendComplete": false
+      "recommendComplete": true
     }, {
       "name": "OUTILS DE BASE",
       "iconName": "build",
