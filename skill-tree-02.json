@@ -1,9 +1,7 @@
 [
   {
-  //Level 01 : Bases du code
     "name": "Bases du code",
     "branch": [
-      //branche 01 : Bases
       {
         "name": "Basics HTML and HTML5",
         "iconName": "category",
@@ -21,7 +19,6 @@
       "active": true,
       "recommendComplete": true
       }, 
-      //branche 02 : Outils
       {
         "name": "OUTILS DE BASE",
         "iconName": "build",
@@ -51,10 +48,8 @@
     "levelComplete": true
   },
   {
-  //Level 02 : CSS
     "name": "Responsive Web Design",
     "branch": [
-      //branche 01 : Notions CSS
       {
         "name": "COMPETENCES CSS",
         "iconName": "devices",
@@ -85,7 +80,6 @@
       "active": true,
       "recommendComplete": true
       }, 
-      //branche 02 : Frameswork
       {
         "name": "FRAMEWORKS CSS",
         "iconName": "build",
@@ -112,7 +106,6 @@
       "active": true,
       "recommendComplete": true
     },
-    //branche 03 : Preprocesseurs
       {
         "name": "Preprocessing",
         "iconName": "view_quilt",
@@ -139,7 +132,6 @@
       "active": true,
       "recommendComplete": true
     },
-    //branche 04: Architecture CSS
       {
         "name": "ArCHITECTURE CSS",
         "iconName": "developer_board",
@@ -162,10 +154,8 @@
     "levelComplete": true
   },
   {
-  //Level 04 : Javascript
     "name": "Javascript",
     "branch": [
-      //branche 01 : DOM
       {
         "name": "Bases du DOM",
         "iconName": "hdr_strong",
@@ -179,7 +169,6 @@
       "active": true,
       "recommendComplete": true
       }, 
-      //branche 02 : DESSIN
       {
         "name": "DESSIN",
         "iconName": "gradient",
@@ -202,7 +191,6 @@
       "active": true,
       "recommendComplete": true
     },
-    //branche 03 : Frameworks
       {
         "name": "Frameworks",
         "iconName": "developer_mode",
@@ -234,7 +222,6 @@
       "active": true,
       "recommendComplete": true
     },
-    //branche 04: Preprocessing
       {
         "name": "Preprocessing",
         "iconName": "nfc",
@@ -260,7 +247,6 @@
   ],
     "levelComplete": true
   },
-  //Level 5 management  
   {
     "name": "MANAGEMENT",
     "branch": [
