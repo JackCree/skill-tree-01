@@ -43,11 +43,7 @@
       }],
       "optional": [
           {
-              "name": "Web design",
-              "complete": false
-          },
-          {
-              "name": "prototypage",
+              "name": "Atom",
               "complete": false
           }
       ],
