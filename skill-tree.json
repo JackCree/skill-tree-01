@@ -55,6 +55,19 @@
   {
     "name": "CSS",
     "branch": [{
+      "name": "CSS SKILLS",
+      "iconName": "devices",
+      "recommend": [{
+        "name": "Responsive Web",
+        "complete": false
+      }, {
+        "name": "Flexbox",
+        "complete": false
+      }],
+      "optional": null,
+      "active": false,
+      "recommendComplete": false
+    }, {
       "name": "CSS FRAMEWORK",
       "iconName": "flip_to_front",
       "recommend": [{
@@ -106,19 +119,6 @@
         "name": "BEM",
         "complete": false
       }],
-      "active": false,
-      "recommendComplete": false
-    }, {
-      "name": "CSS SKILLS",
-      "iconName": "devices",
-      "recommend": [{
-        "name": "Responsive Web",
-        "complete": false
-      }, {
-        "name": "Flexbox",
-        "complete": false
-      }],
-      "optional": null,
       "active": false,
       "recommendComplete": false
     }, {
