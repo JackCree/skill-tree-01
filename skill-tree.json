@@ -133,49 +133,49 @@
       "recommend": null,
       "optional": [{
         "name": "jQuery",
-        "complete": true
+        "complete": false
       }],
       "recommendComplete": true
     }, {
-      "name": "DESSIN WEB",
+      "name": "GRAPHISME NUMERIQUE",
       "iconName": "gradient",
       "recommend": null,
       "optional": [{
         "name": "SVG",
-        "complete": true
+        "complete": false
       }, {
         "name": "Canvas",
-        "complete": true
+        "complete": false
       }, {
         "name": "D3.js",
         "complete": false
       }],
-      "recommendComplete": false
+      "recommendComplete": true
     }, {
       "name": "COMPETENCES JAVASCRIPT",
       "iconName": "format_quote",
       "recommend": [{
         "name": "ES6",
-        "complete": true
+        "complete": false
       }],
       "optional": null,
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
       "name": " FRAMEWORK JAVASCRIPT",
       "iconName": "developer_mode",
       "recommend": [{
         "name": "Vue.js",
-        "complete": true
+        "complete": false
       }, {
         "name": "Angular",
         "complete": false
       }, {
         "name": "React.js",
-        "complete": true
+        "complete": false
       }],
       "optional": null,
-      "active": true,
+      "active": false,
       "recommendComplete": false
     }, {
       "name": "PREPROCESSEURS JAVASCRIPT",
