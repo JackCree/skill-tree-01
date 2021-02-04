@@ -1,13 +1,13 @@
 [{
     "name": "BASICS",
     "branch": [{
-      "name": "BASIC SKILLS",
+      "name": "COMPETENCES DE BASE",
       "iconName": "category",
       "recommend": [{
-        "name": "Learn HTML",
+        "name": "Appprentissage du HTML",
         "complete": false
       }, {
-        "name": "Basics of CSS",
+        "name": "Bases du CSS",
         "complete": false
       }, {
         "name": "Basics of JavaScript",
@@ -17,19 +17,19 @@
       "active": true,
       "recommendComplete": false
     }, {
-      "name": "BASIC TOOLS",
+      "name": "OUTILS DE BASE",
       "iconName": "build",
       "recommend": [{
         "name": "Git - Version Control",
         "complete": false
       }, {
-        "name": "Basic Terminal Usage",
+        "name": "Bases d'un Terminal",
         "complete": false
       }, {
-        "name": "Text Editor",
+        "name": "Editeur de Texte",
         "complete": false
       }, {
-        "name": "A Heart of Reserching",
+        "name": "Un coeur dans la recherche",
         "complete": false
       }],
       "optional": null,
@@ -41,26 +41,26 @@
   {
     "name": "CSS",
     "branch": [{
-      "name": "CSS FRAMEWORK",
+      "name": "FRAMEWORK CSS",
       "iconName": "flip_to_front",
       "recommend": [{
         "name": "Bootstrap",
         "complete": false
       }],
       "optional": [{
-        "name": "UIKit",
+        "name": "Kit UI",
         "complete": false
       }, {
-        "name": "Foundation",
+        "name": "Fondations",
         "complete": false
       }, {
-        "name": "Semantic UI",
+        "name": "Semantique UI",
         "complete": false
       }],
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "CSS PREPROCESSORS",
+      "name": "PREPROCESSEUR CSS ",
       "iconName": "view_quilt",
       "recommend": [{
         "name": "Sass",
@@ -79,7 +79,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "CSS ARCHITECHTURE",
+      "name": "ARCHITECHTURE CSS ",
       "iconName": "developer_board",
       "recommend": [{
         "name": "OOCSS",
@@ -95,7 +95,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "CSS SKILLS",
+      "name": "COMPETENCES CSS",
       "iconName": "devices",
       "recommend": [{
         "name": "Responsive Web",
@@ -108,17 +108,17 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "CSS MASTERY",
+      "name": "MAITRÎSE DU CSS",
       "iconName": "widgets",
       "recommend": null,
       "optional": [{
         "name": "Grid Layout",
         "complete": false
       }, {
-        "name": "Animation",
+        "name": "Animations",
         "complete": false
       }, {
-        "name": "Transform 2D, 3D",
+        "name": "Transformation 2D, 3D",
         "complete": false
       }],
       "recommendComplete": true
@@ -128,7 +128,7 @@
   {
     "name": "JAVASCRIPT",
     "branch": [{
-      "name": "BASIC DOM",
+      "name": "DOM BASIQUE",
       "iconName": "hdr_strong",
       "recommend": null,
       "optional": [{
@@ -137,7 +137,7 @@
       }],
       "recommendComplete": true
     }, {
-      "name": "WEB DRAWING",
+      "name": "GRAPHISME NUMERIQUE",
       "iconName": "gradient",
       "recommend": null,
       "optional": [{
@@ -152,7 +152,7 @@
       }],
       "recommendComplete": true
     }, {
-      "name": "JAVASCRIPT SKILLS",
+      "name": "COMPETENCES JAVASCRIPT",
       "iconName": "format_quote",
       "recommend": [{
         "name": "ES6",
@@ -162,7 +162,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "JAVASCRIPT FRAMEWORK",
+      "name": " FRAMEWORK JAVASCRIPT",
       "iconName": "developer_mode",
       "recommend": [{
         "name": "Vue.js",
@@ -178,7 +178,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "JAVASCRIPT PREPROCESSORS",
+      "name": "PREPROCESSEURS JAVASCRIPT",
       "iconName": "nfc",
       "recommend": null,
       "optional": [{
@@ -196,7 +196,7 @@
     "levelComplete": false
   },
   {
-    "name": "MANAGERS",
+    "name": "MANAGEMENT",
     "branch": [{
       "name": "PACKAGE MANAGERS",
       "iconName": "device_hub",
