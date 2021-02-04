@@ -160,7 +160,7 @@
       }],
       "optional": null,
       "active": false,
-      "recommendComplete": false
+      "recommendComplete": true
     }, {
       "name": " FRAMEWORK JAVASCRIPT",
       "iconName": "developer_mode",
