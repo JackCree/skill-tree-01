@@ -15,7 +15,7 @@
       }],
       "optional": [
           {
-              "name": "web design",
+              "name": "Web design",
               "complete": true
           },
           {
@@ -26,22 +26,25 @@
       "active": true,
       "recommendComplete": true
     }, {
-      "name": "BASIC TOOLS",
+      "name": "OUTILS DE BASE",
       "iconName": "build",
       "recommend": [{
-        "name": "Git - Version Control",
+        "name": "Git et GitHub- Versioning",
         "complete": false
       }, {
-        "name": "Basic Terminal Usage",
+        "name": "Usage basique d'un Terminal",
         "complete": false
       }, {
-        "name": "Text Editor",
+        "name": "Editeur de text - Sublime Text",
         "complete": false
       }, {
-        "name": "A Heart of Reserching",
+        "name": "Explorer et identifier ",
         "complete": false
       }],
-      "optional": null,
+      "optional": {
+        "name": "Atom",
+        "complete: true
+      },
       "active": false,
       "recommendComplete": false
     }],
