@@ -159,7 +159,7 @@
         "complete": true
       }],
       "optional": null,
-      "active": false,
+      "active": true,
       "recommendComplete": true
     }, {
       "name": " FRAMEWORK JAVASCRIPT",
