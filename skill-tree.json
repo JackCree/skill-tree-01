@@ -128,29 +128,29 @@
   {
     "name": "JAVASCRIPT",
     "branch": [{
-      "name": "DOM BASIQUE",
+      "name": "BASES DU DOM",
       "iconName": "hdr_strong",
       "recommend": null,
       "optional": [{
         "name": "jQuery",
-        "complete": false
+        "complete": true
       }],
       "recommendComplete": true
     }, {
-      "name": "GRAPHISME NUMERIQUE",
+      "name": "DESSIN WEB",
       "iconName": "gradient",
       "recommend": null,
       "optional": [{
         "name": "SVG",
-        "complete": false
+        "complete": true
       }, {
         "name": "Canvas",
-        "complete": false
+        "complete": true
       }, {
         "name": "D3.js",
         "complete": false
       }],
-      "recommendComplete": true
+      "recommendComplete": false
     }, {
       "name": "COMPETENCES JAVASCRIPT",
       "iconName": "format_quote",
@@ -166,16 +166,16 @@
       "iconName": "developer_mode",
       "recommend": [{
         "name": "Vue.js",
-        "complete": false
+        "complete": true
       }, {
         "name": "Angular",
         "complete": false
       }, {
         "name": "React.js",
-        "complete": false
+        "complete": true
       }],
       "optional": null,
-      "active": false,
+      "active": true,
       "recommendComplete": false
     }, {
       "name": "PREPROCESSEURS JAVASCRIPT",
