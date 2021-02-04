@@ -142,25 +142,25 @@
       "recommend": null,
       "optional": [{
         "name": "SVG",
-        "complete": false
+        "complete": true
       }, {
         "name": "Canvas",
-        "complete": false
+        "complete": true
       }, {
         "name": "D3.js",
         "complete": false
       }],
-      "recommendComplete": true
+      "recommendComplete": false
     }, {
       "name": "COMPETENCES JAVASCRIPT",
       "iconName": "format_quote",
       "recommend": [{
         "name": "ES6",
-        "complete": false
+        "complete": true
       }],
       "optional": null,
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }, {
       "name": " FRAMEWORK JAVASCRIPT",
       "iconName": "developer_mode",
