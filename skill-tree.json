@@ -1,7 +1,7 @@
 [{
     "name": "BASES DU CODE",
     "branch": [{
-      "name": "BASIC HTML et HTML5",
+      "name": "COMPETENCES DE BASE",
       "iconName": "category",
       "recommend": [{
         "name": "Appprentissage du HTML",
@@ -12,10 +12,6 @@
       }, {
         "name": "Basics of JavaScript",
         "complete": true
-      }, 
-      {
-        "name": "Editeur de texte Sublime Text 3",
-        "complete": false
       }],
       "optional": null,
       "active": true,
