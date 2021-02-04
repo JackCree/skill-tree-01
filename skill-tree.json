@@ -21,22 +21,22 @@
       "iconName": "build",
       "recommend": [{
         "name": "Git - Version Control",
-        "complete": false
+        "complete": true
       }, {
         "name": "Bases d'un Terminal",
-        "complete": false
+        "complete": true
       }, {
         "name": "Editeur de Texte",
-        "complete": false
+        "complete": true
       }, {
         "name": "Un coeur dans la recherche",
-        "complete": false
+        "complete": true
       }],
       "optional": null,
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }],
-    "levelComplete": false
+    "levelComplete": true
   },
   {
     "name": "CSS",
@@ -45,85 +45,85 @@
       "iconName": "flip_to_front",
       "recommend": [{
         "name": "Bootstrap",
-        "complete": false
+        "complete": true
       }],
       "optional": [{
         "name": "Kit UI",
-        "complete": false
+        "complete": true
       }, {
         "name": "Fondations",
-        "complete": false
+        "complete": true
       }, {
         "name": "Semantique UI",
-        "complete": false
+        "complete": true
       }],
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }, {
       "name": "PREPROCESSEUR CSS ",
       "iconName": "view_quilt",
       "recommend": [{
         "name": "Sass",
-        "complete": false
+        "complete": true
       }, {
         "name": "PostCSS",
-        "complete": false
+        "complete": true
       }],
       "optional": [{
         "name": "Less",
-        "complete": false
+        "complete": true
       }, {
         "name": "Stylus",
-        "complete": false
+        "complete": true
       }],
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }, {
       "name": "ARCHITECHTURE CSS ",
       "iconName": "developer_board",
       "recommend": [{
         "name": "OOCSS",
-        "complete": false
+        "complete": true
       }],
       "optional": [{
         "name": "SMACSS",
-        "complete": false
+        "complete": true
       }, {
         "name": "BEM",
-        "complete": false
+        "complete": true
       }],
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }, {
       "name": "COMPETENCES CSS",
       "iconName": "devices",
       "recommend": [{
         "name": "Responsive Web",
-        "complete": false
+        "complete": true
       }, {
         "name": "Flexbox",
-        "complete": false
+        "complete": true
       }],
       "optional": null,
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }, {
-      "name": "MAITRÎSE DU CSS",
+      "name": "MAÎTRISE DU CSS",
       "iconName": "widgets",
       "recommend": null,
       "optional": [{
         "name": "Grid Layout",
-        "complete": false
+        "complete": true
       }, {
         "name": "Animations",
-        "complete": false
+        "complete": true
       }, {
         "name": "Transformation 2D, 3D",
-        "complete": false
+        "complete": true
       }],
       "recommendComplete": true
     }],
-    "levelComplete": false
+    "levelComplete": true
   },
   {
     "name": "JAVASCRIPT",
