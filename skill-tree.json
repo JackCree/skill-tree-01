@@ -4,7 +4,7 @@
       "name": "COMPETENCES DE BASES",
       "iconName": "category",
       "recommend": [{
-        "name": "HTML ET HTML",
+        "name": "HTML ET HTML(",
         "complete": true
       }, {
         "name": "Bases du CSS",
@@ -30,27 +30,27 @@
       "iconName": "build",
       "recommend": [{
         "name": "Git et GitHub- Versioning",
-        "complete": true
+        "complete": false
       }, {
         "name": "Usage basique du Terminal",
-        "complete": true
+        "complete": false
       }, {
         "name": "Editeur de text - Sublime Text",
-        "complete": true
+        "complete": false
       }, {
         "name": "Explorer et identifier ",
-        "complete": true
+        "complete": false
       }],
       "optional": [
           {
               "name": "Atom",
-              "complete": true
+              "complete": false
           }
       ],
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }],
-    "levelComplete": true
+    "levelComplete": false
   },
   {
     "name": "CSS",
@@ -59,34 +59,31 @@
       "iconName": "devices",
       "recommend": [{
         "name": "Responsive Web",
-        "complete": true
+        "complete": false
       }, {
         "name": "Flexbox",
-        "complete": true
+        "complete": false
       }, {
         "name": "Grid Layout",
-        "complete": true
+        "complete": false
       }
     ],
       "optional": [{
           "name": "Animations",
-          "complete": true
+          "complete": false
         }, {
           "name": "Transformation 2D, 3D",
-          "complete": true
+          "complete": false
         }
       ],
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
-      "name": "FRAMEWORK CSS",
+      "name": "CSS FRAMEWORK",
       "iconName": "flip_to_front",
       "recommend": [{
         "name": "Bootstrap",
-        "complete": true
-      }, {
-        "name": "Modernizr",
-        "complete": true
+        "complete": false
       }],
       "optional": [{
         "name": "UIKit",
@@ -98,17 +95,17 @@
         "name": "Semantic UI",
         "complete": false
       }],
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
-      "name": "PREPROCESSEURS CSS",
+      "name": "CSS PREPROCESSORS",
       "iconName": "view_quilt",
       "recommend": [{
         "name": "Sass",
-        "complete": true
+        "complete": false
       }, {
         "name": "PostCSS",
-        "complete": true
+        "complete": false
       }],
       "optional": [{
         "name": "Less",
@@ -117,36 +114,51 @@
         "name": "Stylus",
         "complete": false
       }],
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
-      "name": "ARCHITECHTURE CSS",
+      "name": "CSS ARCHITECHTURE",
       "iconName": "developer_board",
       "recommend": [{
-        "name": "Orienté Objet CSS",
-        "complete": true
+        "name": "OOCSS",
+        "complete": false
       }],
       "optional": [{
-        "name": "Scalable & Modular Architecture CSS",
+        "name": "SMACSS",
         "complete": false
       }, {
-        "name": "Block Element Modifier",
+        "name": "BEM",
         "complete": false
       }],
-      "active": true,
+      "active": false,
+      "recommendComplete": false
+    }, {
+      "name": "CSS MASTERY",
+      "iconName": "widgets",
+      "recommend": null,
+      "optional": [{
+        "name": "Grid Layout",
+        "complete": false
+      }, {
+        "name": "Animation",
+        "complete": false
+      }, {
+        "name": "Transform 2D, 3D",
+        "complete": false
+      }],
       "recommendComplete": true
     }],
-    "levelComplete": true
+    "levelComplete": false
   },
   {
     "name": "JAVASCRIPT",
     "branch": [{
-      "name": "BASES DU DOM",
+      "name": "BASIC DOM",
       "iconName": "hdr_strong",
       "recommend": null,
       "optional": [{
         "name": "jQuery",
-        "complete": true
+        "complete": false
       }],
       "recommendComplete": true
     }, {
@@ -155,47 +167,43 @@
       "recommend": null,
       "optional": [{
         "name": "SVG",
-        "complete": true
+        "complete": false
       }, {
         "name": "Canvas",
-        "complete": true
+        "complete": false
       }, {
         "name": "D3.js",
         "complete": false
       }],
       "recommendComplete": true
     }, {
-      "name": "COMPETENCES JAVASCRIPT",
+      "name": "JAVASCRIPT SKILLS",
       "iconName": "format_quote",
       "recommend": [{
         "name": "ES6",
-        "complete": true
+        "complete": false
       }],
       "optional": null,
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
-      "name": "FRAMEWORKS JAVASCRIPT ",
+      "name": "JAVASCRIPT FRAMEWORK",
       "iconName": "developer_mode",
       "recommend": [{
         "name": "Vue.js",
-        "complete": true
+        "complete": false
       }, {
         "name": "Angular",
         "complete": false
       }, {
         "name": "React.js",
-        "complete": true
-      }, {
-        "name": "Node.js",
         "complete": false
-      }
-    ],
+      }],
       "optional": null,
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "PREPROCESSEURS JAVASCRIPT",
+      "name": "JAVASCRIPT PREPROCESSORS",
       "iconName": "nfc",
       "recommend": null,
       "optional": [{
@@ -203,7 +211,7 @@
         "complete": false
       }, {
         "name": "Babel",
-        "complete": true
+        "complete": false
       }, {
         "name": "CoffeeScript",
         "complete": false
@@ -215,7 +223,7 @@
   {
     "name": "MANAGERS",
     "branch": [{
-      "name": "PACKAGE MANAGEMENT",
+      "name": "PACKAGE MANAGERS",
       "iconName": "device_hub",
       "recommend": [{
         "name": "NPM",
@@ -231,7 +239,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "TASK RUNNING",
+      "name": "TASK RUNNERS",
       "iconName": "import_contacts",
       "recommend": [{
         "name": "npm scripts",
@@ -247,7 +255,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "",
+      "name": "BUILD TOOLS",
       "iconName": "table_chart",
       "recommend": [{
         "name": "Webpack",
