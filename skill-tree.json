@@ -55,7 +55,7 @@
   {
     "name": "CSS",
     "branch": [{
-      "name": "CSS SKILLS",
+      "name": "COMPETENCES CSS",
       "iconName": "devices",
       "recommend": [{
         "name": "Responsive Web",
@@ -63,8 +63,19 @@
       }, {
         "name": "Flexbox",
         "complete": false
-      }],
-      "optional": null,
+      }, {
+        "name": "Grid Layout",
+        "complete": false
+      }
+    ],
+      "optional": [{
+          "name": "Animations",
+          "complete": false
+        }, {
+          "name": "Transformation 2D, 3D",
+          "complete": false
+        }
+      ],
       "active": false,
       "recommendComplete": false
     }, {
