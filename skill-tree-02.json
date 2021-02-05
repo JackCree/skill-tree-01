@@ -1,0 +1,265 @@
+[{
+    "name": "BASES",
+    "branch": [{
+      "name": "COMPETENCES DE BASES",
+      "iconName": "category",
+      "recommend": [{
+        "name": "HTML ET HTML5",
+        "complete": true
+      }, {
+        "name": "Bases du CSS",
+        "complete": true
+      }, {
+        "name": "Bases de JavaScript et script",
+        "complete": true
+      }],
+      "optional": [
+          {
+              "name": "Web design",
+              "complete": true
+          },
+          {
+              "name": "prototypage",
+              "complete": true
+          }
+      ],
+      "active": true,
+      "recommendComplete": true
+    }, {
+      "name": "OUTILS DE BASE",
+      "iconName": "build",
+      "recommend": [{
+        "name": "Git et GitHub- Versioning",
+        "complete": true
+      }, {
+        "name": "Usage basique du Terminal",
+        "complete": true
+      }, {
+        "name": "Editeur de text - Sublime Text",
+        "complete": true
+      }, {
+        "name": "Explorer et identifier ",
+        "complete": true
+      }],
+      "optional": [
+          {
+              "name": "Atom",
+              "complete": true
+          }
+      ],
+      "active": true,
+      "recommendComplete": true
+    }],
+    "levelComplete": true
+  },
+  {
+    "name": "CSS",
+    "branch": [{
+      "name": "COMPETENCES CSS",
+      "iconName": "devices",
+      "recommend": [{
+        "name": "Responsive Web",
+        "complete": true
+      }, {
+        "name": "Flexbox",
+        "complete": true
+      }, {
+        "name": "Grid Layout",
+        "complete": true
+      }
+    ],
+      "optional": [{
+          "name": "Animations",
+          "complete": true
+        }, {
+          "name": "Transformation 2D, 3D",
+          "complete": true
+        }
+      ],
+      "active": true,
+      "recommendComplete": true
+    }, {
+      "name": "FRAMEWORK CSS",
+      "iconName": "flip_to_front",
+      "recommend": [{
+        "name": "Bootstrap",
+        "complete": true
+      }, {
+        "name": "Modernizr",
+        "complete": true
+      }],
+      "optional": [{
+        "name": "UIKit",
+        "complete": false
+      }, {
+        "name": "Foundation",
+        "complete": false
+      }, {
+        "name": "Semantic UI",
+        "complete": false
+      }],
+      "active": true,
+      "recommendComplete": true
+    }, {
+      "name": "PREPROCESSEURS CSS",
+      "iconName": "view_quilt",
+      "recommend": [{
+        "name": "Sass",
+        "complete": true
+      }, {
+        "name": "PostCSS",
+        "complete": true
+      }],
+      "optional": [{
+        "name": "Less",
+        "complete": false
+      }, {
+        "name": "Stylus",
+        "complete": false
+      }],
+      "active": true,
+      "recommendComplete": true
+    }, {
+      "name": "ARCHITECHTURE CSS",
+      "iconName": "developer_board",
+      "recommend": [{
+        "name": "Oriente Objet CSS",
+        "complete": true
+      }],
+      "optional": [{
+        "name": "Scalable & Modular Architecture CSS",
+        "complete": false
+      }, {
+        "name": "Block Element Modifier",
+        "complete": false
+      }],
+      "active": true,
+      "recommendComplete": true
+    }],
+    "levelComplete": true
+  },
+  {
+    "name": "JAVASCRIPT",
+    "branch": [{
+      "name": "BASES DU DOM",
+      "iconName": "hdr_strong",
+      "recommend": null,
+      "optional": [{
+        "name": "jQuery",
+        "complete": true
+      }],
+      "recommendComplete": true
+    }, {
+      "name": "WEB DRAWING",
+      "iconName": "gradient",
+      "recommend": null,
+      "optional": [{
+        "name": "SVG",
+        "complete": true
+      }, {
+        "name": "Canvas",
+        "complete": true
+      }, {
+        "name": "D3.js",
+        "complete": false
+      }],
+      "recommendComplete": true
+    }, {
+      "name": "COMPETENCES JAVASCRIPT",
+      "iconName": "format_quote",
+      "recommend": [{
+        "name": "ES6",
+        "complete": true
+      }],
+      "optional": null,
+      "active": true,
+      "recommendComplete": true
+    }, {
+      "name": "FRAMEWORKS JAVASCRIPT ",
+      "iconName": "developer_mode",
+      "recommend": [{
+        "name": "Vue.js",
+        "complete": true
+      }, {
+        "name": "Angular",
+        "complete": false
+      }, {
+        "name": "React.js",
+        "complete": true
+      }, {
+        "name": "Node.js",
+        "complete": false
+      }
+    ],
+      "optional": null,
+      "active": false,
+      "recommendComplete": false
+    }, {
+      "name": "PREPROCESSEURS JAVASCRIPT",
+      "iconName": "nfc",
+      "recommend": null,
+      "optional": [{
+        "name": "TypeScript",
+        "complete": false
+      }, {
+        "name": "Babel",
+        "complete": true
+      }, {
+        "name": "CoffeeScript",
+        "complete": false
+      }],
+      "recommendComplete": true
+    }],
+    "levelComplete": false
+  },
+  {
+    "name": "MANAGERS",
+    "branch": [{
+      "name": "PACKAGE MANAGEMENT",
+      "iconName": "device_hub",
+      "recommend": [{
+        "name": "NPM",
+        "complete": false
+      }, {
+        "name": "YARN",
+        "complete": false
+      }],
+      "optional": [{
+        "name": "Bower",
+        "complete": false
+      }],
+      "active": false,
+      "recommendComplete": false
+    }, {
+      "name": "TASK RUNNING",
+      "iconName": "import_contacts",
+      "recommend": [{
+        "name": "npm scripts",
+        "complete": false
+      }, {
+        "name": "gulp",
+        "complete": false
+      }],
+      "optional": [{
+        "name": "grunt",
+        "complete": false
+      }],
+      "active": false,
+      "recommendComplete": false
+    }, {
+      "name": "BUILD TOOLS",
+      "iconName": "table_chart",
+      "recommend": [{
+        "name": "Webpack",
+        "complete": false
+      }],
+      "optional": [{
+        "name": "Parcel",
+        "complete": false
+      }],
+      "active": false,
+      "recommendComplete": false
+    }],
+    "levelComplete": false
+  }
+]
