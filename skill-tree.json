@@ -109,7 +109,7 @@
       }],
       "optional": [{
         "name": "Less",
-        "complete": true
+        "complete": false
       }, {
         "name": "Stylus",
         "complete": false
@@ -125,7 +125,7 @@
       }],
       "optional": [{
         "name": "SMACSS",
-        "complete": true
+        "complete": false
       }, {
         "name": "BEM",
         "complete": false
@@ -148,7 +148,7 @@
       }],
       "recommendComplete": true
     }],
-    "levelComplete": false
+    "levelComplete": true
   },
   {
     "name": "JAVASCRIPT",
