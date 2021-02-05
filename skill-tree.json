@@ -59,34 +59,31 @@
       "iconName": "devices",
       "recommend": [{
         "name": "Responsive Web",
-        "complete": true
+        "complete": false
       }, {
         "name": "Flexbox",
-        "complete": true
+        "complete": false
       }, {
         "name": "Grid Layout",
-        "complete": true
+        "complete": false
       }
     ],
       "optional": [{
           "name": "Animations",
-          "complete": true
+          "complete": false
         }, {
           "name": "Transformation 2D, 3D",
-          "complete": true
+          "complete": false
         }
       ],
-      "active": true,
-      "recommendComplete": true
+      "active": false,
+      "recommendComplete": false
     }, {
-      "name": "FRAMEWORK CSS",
+      "name": "CSS FRAMEWORK",
       "iconName": "flip_to_front",
       "recommend": [{
         "name": "Bootstrap",
-        "complete": true
-      },{
-        "name": "Modernizr",
-        "complete": true
+        "complete": false
       }],
       "optional": [{
         "name": "UIKit",
@@ -101,11 +98,11 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "PREPROCESSEURS CSS",
+      "name": "CSS PREPROCESSORS",
       "iconName": "view_quilt",
       "recommend": [{
         "name": "Sass",
-        "complete": true
+        "complete": false
       }, {
         "name": "PostCSS",
         "complete": false
@@ -120,11 +117,11 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "ARCHITECHTURE CSS",
+      "name": "CSS ARCHITECHTURE",
       "iconName": "developer_board",
       "recommend": [{
         "name": "OOCSS",
-        "complete": true
+        "complete": false
       }],
       "optional": [{
         "name": "SMACSS",
@@ -135,13 +132,28 @@
       }],
       "active": false,
       "recommendComplete": false
+    }, {
+      "name": "CSS MASTERY",
+      "iconName": "widgets",
+      "recommend": null,
+      "optional": [{
+        "name": "Grid Layout",
+        "complete": false
+      }, {
+        "name": "Animation",
+        "complete": false
+      }, {
+        "name": "Transform 2D, 3D",
+        "complete": false
+      }],
+      "recommendComplete": true
     }],
     "levelComplete": false
   },
   {
     "name": "JAVASCRIPT",
     "branch": [{
-      "name": "BASES DU DOM",
+      "name": "BASIC DOM",
       "iconName": "hdr_strong",
       "recommend": null,
       "optional": [{
@@ -165,7 +177,7 @@
       }],
       "recommendComplete": true
     }, {
-      "name": "COMPETENCES JAVASCRIPT",
+      "name": "JAVASCRIPT SKILLS",
       "iconName": "format_quote",
       "recommend": [{
         "name": "ES6",
@@ -175,7 +187,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "FRAMEWORK JAVASCRIPT",
+      "name": "JAVASCRIPT FRAMEWORK",
       "iconName": "developer_mode",
       "recommend": [{
         "name": "Vue.js",
@@ -186,15 +198,12 @@
       }, {
         "name": "React.js",
         "complete": false
-      }, {
-        "name": "Node.js",
-        "complete": false
       }],
       "optional": null,
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "PREPROCESSEURS JAVASCRIPT",
+      "name": "JAVASCRIPT PREPROCESSORS",
       "iconName": "nfc",
       "recommend": null,
       "optional": [{
@@ -214,7 +223,7 @@
   {
     "name": "MANAGERS",
     "branch": [{
-      "name": "PACKAGE MANAGEMENT",
+      "name": "PACKAGE MANAGERS",
       "iconName": "device_hub",
       "recommend": [{
         "name": "NPM",
