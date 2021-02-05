@@ -30,27 +30,27 @@
       "iconName": "build",
       "recommend": [{
         "name": "Git et GitHub- Versioning",
-        "complete": false
+        "complete": true
       }, {
         "name": "Usage basique du Terminal",
-        "complete": false
+        "complete": true
       }, {
         "name": "Editeur de text - Sublime Text",
-        "complete": false
+        "complete": true
       }, {
         "name": "Explorer et identifier ",
-        "complete": false
+        "complete": true
       }],
       "optional": [
           {
               "name": "Atom",
-              "complete": false
+              "complete": true
           }
       ],
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }],
-    "levelComplete": false
+    "levelComplete": true
   },
   {
     "name": "CSS",
