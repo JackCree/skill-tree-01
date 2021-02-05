@@ -109,7 +109,7 @@
       }],
       "optional": [{
         "name": "Less",
-        "complete": false
+        "complete": true
       }, {
         "name": "Stylus",
         "complete": false
