@@ -114,8 +114,8 @@
         "name": "Stylus",
         "complete": false
       }],
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }, {
       "name": "ARCHITECHTURE CSS",
       "iconName": "developer_board",
@@ -130,8 +130,8 @@
         "name": "BEM",
         "complete": false
       }],
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }, {
       "name": "MAITRISE CSS",
       "iconName": "widgets",
@@ -184,8 +184,8 @@
         "complete": true
       }],
       "optional": null,
-      "active": false,
-      "recommendComplete": false
+      "active": true,
+      "recommendComplete": true
     }, {
       "name": "FRAMEWORK JAVASCRIPT",
       "iconName": "developer_mode",
