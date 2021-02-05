@@ -105,7 +105,7 @@
         "complete": true
       }, {
         "name": "PostCSS",
-        "complete": false
+        "complete": true
       }],
       "optional": [{
         "name": "Less",
@@ -125,7 +125,7 @@
       }],
       "optional": [{
         "name": "SMACSS",
-        "complete": false
+        "complete": true
       }, {
         "name": "BEM",
         "complete": false
