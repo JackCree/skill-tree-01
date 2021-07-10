@@ -1,16 +1,16 @@
 [{
-    "name": "BASES",
+    "name": "BASICS",
     "branch": [{
-      "name": "COMPETENCES DE BASES",
+      "name": "BASE SKILLS",
       "iconName": "category",
       "recommend": [{
-        "name": "HTML ET HTML5",
+        "name": "HTML & HTML5",
         "complete": true
       }, {
-        "name": "Bases du CSS",
+        "name": "CSS Basics",
         "complete": true
       }, {
-        "name": "Bases de JavaScript et script",
+        "name": "Javascript basics and script",
         "complete": true
       }],
       "optional": [
@@ -19,31 +19,34 @@
               "complete": true
           },
           {
-              "name": "prototypage",
+              "name": "prototype",
               "complete": true
           }
       ],
       "active": true,
       "recommendComplete": true
     }, {
-      "name": "OUTILS DE BASE",
+      "name": "BAISC TOOLS",
       "iconName": "build",
       "recommend": [{
         "name": "Git et GitHub- Versioning",
         "complete": true
       }, {
-        "name": "Usage basique du Terminal",
+        "name": "Baisc Terminal Use",
         "complete": true
       }, {
-        "name": "Editeur de text - Sublime Text",
+        "name": "Text Editor - Sublime Text",
         "complete": true
       }, {
-        "name": "Explorer et identifier ",
+        "name": "Explore & identify",
         "complete": true
       }],
       "optional": [
           {
               "name": "Atom",
+              "complete": true
+          }, {
+              "name": "Visual Studio",
               "complete": true
           }
       ],
@@ -55,10 +58,10 @@
   {
     "name": "CSS",
     "branch": [{
-      "name": "COMPETENCES CSS",
+      "name": "CSS SKILLS ",
       "iconName": "devices",
       "recommend": [{
-        "name": "Responsive Web",
+        "name": "Web Responsive",
         "complete": true
       }, {
         "name": "Flexbox",
@@ -72,33 +75,33 @@
           "name": "Animations",
           "complete": true
         }, {
-          "name": "Transformation 2D, 3D",
+          "name": "2D, 3D Transformation",
           "complete": true
         }
       ],
       "active": true,
       "recommendComplete": true
     }, {
-      "name": "FRAMEWORK CSS",
+      "name": "CSS FRAMEWORK",
       "iconName": "flip_to_front",
       "recommend": [{
         "name": "Bootstrap",
         "complete": true
       }],
       "optional": [{
-        "name": "UIKit",
+        "name": "UI Kit",
         "complete": false
       }, {
         "name": "Foundation",
         "complete": false
       }, {
-        "name": "Semantic UI",
+        "name": "UI Semantic",
         "complete": false
       }],
       "active": true,
       "recommendComplete": true
     }, {
-      "name": "PREPROCESSEURS CSS",
+      "name": "CSS PREPROCESSOR",
       "iconName": "view_quilt",
       "recommend": [{
         "name": "Sass",
@@ -117,7 +120,7 @@
       "active": true,
       "recommendComplete": true
     }, {
-      "name": "ARCHITECHTURE CSS",
+      "name": "CSS ARCHITECHTURE",
       "iconName": "developer_board",
       "recommend": [{
         "name": "OOCSS",
@@ -133,7 +136,7 @@
       "active": true,
       "recommendComplete": true
     }, {
-      "name": "MAITRISE CSS",
+      "name": "CSS MASTERY",
       "iconName": "widgets",
       "recommend": null,
       "optional": [{
@@ -153,7 +156,7 @@
   {
     "name": "JAVASCRIPT",
     "branch": [{
-      "name": "BASIC DOM",
+      "name": "DOM BASIC",
       "iconName": "hdr_strong",
       "recommend": null,
       "optional": [{
@@ -187,7 +190,7 @@
       "active": true,
       "recommendComplete": true
     }, {
-      "name": "FRAMEWORK JAVASCRIPT",
+      "name": "JAVASCRIPT FRAMEWORK",
       "iconName": "developer_mode",
       "recommend": [{
         "name": "Vue.js",
@@ -203,7 +206,7 @@
       "active": false,
       "recommendComplete": false
     }, {
-      "name": "PREPROCESSEURS JAVASCRIPT",
+      "name": "JAVASCRIPT PREPROCESSORS",
       "iconName": "nfc",
       "recommend": null,
       "optional": [{
